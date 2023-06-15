@@ -305,4 +305,62 @@ section .text .blog2 button a {
   text-decoration: none;
   font-size: 21px;
   color: #FFFFFF;
+}
+
+.xbox {
+  width: 1440px;
+  height: 480px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 114px 167px;
+  background-image: url(./img/Rectangle111111.png);
+  background-size: 100% 100%;
+}
+.xbox .blog {
+  width: 533px;
+  height: 221px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.xbox .blog h1 {
+  font-size: 48px;
+  line-height: 56px;
+  color: #FFFFFF;
+}
+.xbox .blog p {
+  width: 530px;
+  height: 58px;
+  font-size: 24px;
+  line-height: 28px;
+  color: #FFFFFF;
+  margin-top: -25px;
+}
+.xbox .blog .buttons {
+  width: 500px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.xbox .blog .buttons .b1 {
+  width: 207px;
+  background: linear-gradient(180deg, #686C6F 0%, #373A3C 100%);
+}
+.xbox .blog .buttons .b2 {
+  width: 278px;
+  background: #8DD83D;
+}
+.xbox .blog .buttons button {
+  height: 60px;
+  background: #8DD83D;
+  border-radius: 4px;
+  border: none;
+}
+.xbox .blog .buttons button a {
+  text-decoration: none;
+  font-size: 16px;
+  color: #FFFFFF;
 }/*# sourceMappingURL=main.css.map */
