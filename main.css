@@ -211,4 +211,98 @@ section .text .blog2 button a {
   text-decoration: none;
   font-size: 16px;
   color: #FFFFFF;
+}
+
+.games {
+  width: 1440px;
+  height: 880px;
+  background-image: url(./img/Rectangle.png);
+  background-size: 100% 100%;
+}
+.games .game {
+  width: 1440px;
+  height: 880px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  background: rgba(23, 23, 23, 0.5);
+  padding-top: 97px;
+  padding-bottom: 140px;
+}
+.games .game .pp {
+  height: 43px;
+  width: 427px;
+  font-size: 36px;
+  color: #FFFFFF;
+}
+.games .game .cards {
+  width: 1400px;
+  height: 420px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.games .game .cards .card {
+  width: 320px;
+  height: 420px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+.games .game .cards .card:hover {
+  width: 360px;
+  height: 430px;
+}
+.games .game .cards .card:hover img {
+  height: 200px;
+}
+.games .game .cards .card img {
+  width: 100%;
+  height: 180px;
+}
+.games .game .cards .card .text {
+  width: 100%;
+  height: 240px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+  background-color: white;
+  padding-top: 22px;
+  padding-left: 21px;
+  padding-bottom: 27px;
+}
+.games .game .cards .card .text h1 {
+  font-size: 18px;
+  color: #435766;
+}
+.games .game .cards .card .text p {
+  font-size: 21px;
+  color: #435766;
+}
+.games .game .cards .card .text button {
+  height: 60px;
+  width: 278px;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #8DD83D;
+}
+.games .game button {
+  height: 53px;
+  width: 207px;
+  background: linear-gradient(180deg, #686C6F 0%, #373A3C 100%);
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+}
+.games .game button a {
+  text-decoration: none;
+  font-size: 21px;
+  color: #FFFFFF;
 }/*# sourceMappingURL=main.css.map */
