@@ -363,4 +363,73 @@ section .text .blog2 button a {
   text-decoration: none;
   font-size: 16px;
   color: #FFFFFF;
+}
+
+footer {
+  width: 1440px;
+  height: 395px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  background: #373A3C;
+  border-radius: 4px;
+  padding-top: 58px;
+  padding-bottom: 38px;
+}
+footer .row {
+  width: 797px;
+  height: 210px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  margin-left: -270px;
+}
+footer .row h1 {
+  font-size: 18px;
+  color: #7DD42F;
+}
+footer .row .paras {
+  width: 122px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+footer .row .paras p {
+  font-size: 14px;
+  color: #FFFFFF;
+}
+footer .row .follow {
+  width: 91px;
+  height: 70px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+footer .row .follow .images {
+  width: 91px;
+  height: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+footer .lin {
+  width: 1200px;
+  height: 2px;
+  opacity: 0.35;
+  border: 1px solid #FFFFFF;
+}
+footer .foot {
+  width: 1195px;
+  height: 19px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+footer .foot p {
+  font-size: 16px;
+  color: #FFFFFF;
 }/*# sourceMappingURL=main.css.map */

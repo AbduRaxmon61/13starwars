@@ -393,12 +393,12 @@ section {
             align-items: center;
             justify-content: space-between;
 
-            .b1{
+            .b1 {
                 width: 207px;
                 background: linear-gradient(180deg, #686C6F 0%, #373A3C 100%);
             }
 
-            .b2{
+            .b2 {
                 width: 278px;
                 background: #8DD83D;
             }
@@ -415,6 +415,87 @@ section {
                     color: #FFFFFF;
                 }
             }
+        }
+    }
+}
+
+footer {
+    width: 1440px;
+    height: 395px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    background: #373A3C;
+    border-radius: 4px;
+
+    padding: {
+        top: 58px;
+        bottom: 38px;
+    }
+
+    .row {
+        width: 797px;
+        height: 210px;
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-between;
+        margin-left: -270px;
+
+        h1 {
+            font-size: 18px;
+            color: #7DD42F;
+        }
+
+        .paras {
+            width: 122px;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            justify-content: space-between;
+
+            p {
+                font-size: 14px;
+                color: #FFFFFF;
+            }
+        }
+
+        .follow {
+            width: 91px;
+            height: 70px;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            justify-content: space-between;
+
+            .images {
+                width: 91px;
+                height: 20px;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+            }
+        }
+    }
+
+    .lin {
+        width: 1200px;
+        height: 2px;
+        opacity: 0.35;
+        border: 1px solid #FFFFFF;
+    }
+
+    .foot {
+        width: 1195px;
+        height: 19px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        p {
+            font-size: 16px;
+            color: #FFFFFF;
         }
     }
 }
